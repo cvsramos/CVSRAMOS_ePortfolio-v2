@@ -24,13 +24,11 @@ Now go ahead and check out the other pages of my ePortfolio!
 ''')
     
 with tab2:
-    st.header('My Goals')
+    st.header('Accomplishments')
     st.markdown("""
-- Graduate with Honors
-- Get a job in the IT field
-- Attend at least 3 networking events and make at least 10 new professional connections
-- Complete at least one technical certification in my field of interest
-    """)
+- Won the Extra Mile Award at the Halifax Innovation Challenge 2022.
+- 3rd prize at the NSCC IT Job Fair's What's Your Challenge in 2023.
+    """)    
 with tab3:
      st.header('Skills')
      st.markdown("""
@@ -49,10 +47,12 @@ This includes experience with MySQL, SQL Server, Postgres and Oracle SQL.
 **Windows OS & Oracle Linux:** Extensive operating system experience, including troubleshooting and server management.
     """)
 with tab4:
-    st.header('Accomplishments')
+    st.header('My Goals')
     st.markdown("""
-- Won the Extra Mile Award at the Halifax Innovation Challenge 2022.
-- 3rd prize at the NSCC IT Job Fair's What's Your Challenge in 2023.
+- Graduate with Honors
+- Get a job in the IT field
+- Attend at least 3 networking events and make at least 10 new professional connections
+- Complete at least one technical certification in my field of interest
     """)
 with tab5:
     st.header('Resume')

@@ -30,6 +30,14 @@ with tab2:
 - 3rd prize at the NSCC IT Job Fair's What's Your Challenge in 2023.
     """)    
 with tab3:
+    st.header('My Goals')
+    st.markdown("""
+- Graduate with Honors
+- Get a job in the IT field
+- Attend at least 3 networking events and make at least 10 new professional connections
+- Complete at least one technical certification in my field of interest
+    """)
+with tab4:
      st.header('Skills')
      st.markdown("""
 **HTML/CSS:** Foundation in creating web pages and styling with CSS.
@@ -45,14 +53,6 @@ This includes experience with MySQL, SQL Server, Postgres and Oracle SQL.
 **CISCO - Networking:** Knowledge in network design and security.
 
 **Windows OS & Oracle Linux:** Extensive operating system experience, including troubleshooting and server management.
-    """)
-with tab4:
-    st.header('My Goals')
-    st.markdown("""
-- Graduate with Honors
-- Get a job in the IT field
-- Attend at least 3 networking events and make at least 10 new professional connections
-- Complete at least one technical certification in my field of interest
     """)
 with tab5:
     st.header('Resume')

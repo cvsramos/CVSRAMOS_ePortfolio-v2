@@ -1,10 +1,9 @@
 import streamlit as st
 
-# Sidebar navigation
-st.sidebar.title("Navigation")
-selection = st.sidebar.radio("Go to", ['Home', 'Accomplishments', 'Goals', 'Skills', 'Resume', 'Contact'])
+# Creating tabs for navigation
+tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["Home", "Accomplishments", "Goals", "Skills", "Resume", "Contact"])
 
-if selection == 'Home':
+with tab1:
     col1, col2, col3 = st.columns([1,2,1])
     st.title('Carlos Ramos - ePortfolio')
     with col2:
@@ -21,10 +20,10 @@ I'm a Brazilian Law Graduate who decided to reboot my career and come to Canada 
              
 I'm currently studying at the Nova Scotia Community College, enrolled in the IT Database Administration program.
 
-Now go ahead and check out the other pages of my ePortfolio using the menu on the left!
+Now go ahead and check out the other pages of my ePortfolio!
 ''')
     
-elif selection == 'Goals':
+with tab2:
     st.header('My Goals')
     st.markdown("""
 - Graduate with Honors
@@ -33,7 +32,7 @@ elif selection == 'Goals':
 - Attend at least 3 networking events and make at least 10 new professional connections
 - Complete at least one technical certification in my field of interest
     """)
-elif selection == 'Skills':
+with tab3:
      st.header('Skills')
      st.markdown("""
 **HTML/CSS:** Foundation in creating web pages and styling with CSS.
@@ -52,13 +51,13 @@ This includes experience with MySQL, SQL Server, Postgres and Oracle SQL.
                  
 **Windows OS & Oracle Linux:** Extensive operating system experience, including troubleshooting and server management.
     """)
-elif selection == 'Accomplishments':
+with tab4:
     st.header('Accomplishments')
     st.markdown("""
 - Won the Extra Mile Award at the Halifax Innovation Challenge 2022.
 - 3rd prize at the NSCC IT Job Fair's What's Your Challenge in 2023.
     """)
-elif selection == 'Resume':
+with tab5:
     st.header('Resume')
     st.markdown("""
 **Professional Summary:** Experienced IT Database Administration student with a background in law, skilled in project management and analytics.
@@ -69,7 +68,7 @@ elif selection == 'Resume':
 
 [View Full Resume](https://1drv.ms/b/s!AkC4skJhkpEFhdpGDpgwbljfWLmFVA?e=X8vd5N)
     """)
-elif selection == 'Contact':
+with tab6:
     st.header('Contact')
     st.markdown("""
 **Personal Information**

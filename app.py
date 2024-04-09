@@ -14,7 +14,7 @@ Welcome to the ePortfolio of Carlos Ramos!
 
 **Who am I?**
              
-I'm a Brazilian Law Graduate who decided to reboot my career and come to Canada to study new stuff! I'm here with my wife, Thayale, and we're starting our married life here in Halifax, NS. This is the first version of my ePortfolio, and I'm still working on it, so please be patient with me.
+I'm a Brazilian Law Graduate who decided to reboot my career and come to Canada to study new stuff! I'm here with my wife, Thayale, and we're starting our married life here in Halifax, NS. This is portfolio is a work in progress and will be updated with new content!
 
 **What do I do?**
              
@@ -28,7 +28,6 @@ with tab2:
     st.markdown("""
 - Graduate with Honors
 - Get a job in the IT field
-- Be granted the Permanent Residency
 - Attend at least 3 networking events and make at least 10 new professional connections
 - Complete at least one technical certification in my field of interest
     """)
@@ -47,8 +46,6 @@ This includes experience with MySQL, SQL Server, Postgres and Oracle SQL.
 
 **CISCO - Networking:** Knowledge in network design and security.
 
-**Windows OS & Oracle Linux:** Extensive operating system experience, including troubleshooting and server management.
-                 
 **Windows OS & Oracle Linux:** Extensive operating system experience, including troubleshooting and server management.
     """)
 with tab4:
